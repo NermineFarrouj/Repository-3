@@ -23,7 +23,6 @@ public class HopitalApplication implements CommandLineRunner {
 		patientRepository.save(new Patient(null, "mohammed", new Date(), false, 34f));
 
 		patientRepository.save(new Patient(null, "mohammed", new Date(), false, 34f));
-		patientRepository.save(new Patient(null, "saadeddine", new Date(), false, 34f));
 		patientRepository.save(new Patient(null, "ashraf", new Date(), false, 34f));
 		patientRepository.save(new Patient(null, "bouaaza", new Date(), false, 34f));
 		patientRepository.save(new Patient(null, "youssef", new Date(), false, 34f));
